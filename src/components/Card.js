@@ -8,7 +8,7 @@ export default function Card() {
           <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ghevar_with_Malai_Topping.jpg/200px-Ghevar_with_Malai_Topping.jpg" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is My Food Store..</p>
+            <p className="card-text">This is My Food Store...</p>
             <div className="container w-100">
               <select className="m-2 h-100 bg-success rounded">
                 {Array.from(Array(6), (e, i) => {
